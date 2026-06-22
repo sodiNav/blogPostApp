@@ -34,6 +34,7 @@
         try {
 
             let response = await api.post('/users/register', {
+                username: username.value,
                 email: email.value,
                 password: password.value
             })
