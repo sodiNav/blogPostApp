@@ -4,7 +4,7 @@
 
     const bannerProps = reactive({
         title: "404 - Not Found",
-        tagline: "Unleash your Physical Potential",
+        tagline: "",
         destination: "Home",
         buttonLabel: "Back to Home"
     })

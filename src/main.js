@@ -33,7 +33,8 @@ const router = createRouter({
         {
             path: '/posts',
             name: 'Home',
-            component: HomePage
+            component: HomePage,
+            alias: '/'
         },
         {
             path: '/register',
